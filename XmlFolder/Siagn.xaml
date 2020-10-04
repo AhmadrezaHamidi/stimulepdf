@@ -1,0 +1,23 @@
+﻿<Window x:Class="VstaabnerWpf.XmlFolder.Siagn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VstaabnerWpf.XmlFolder"
+        mc:Ignorable="d" Background="#07303e"
+        Title="singln" Height="448" Width="558">
+    <Grid>
+        <TextBox HorizontalAlignment="Left"   Background="#00696b" Height="41" Margin="20,180,0,-27" TextWrapping="Wrap" Text="Date of birth" VerticalAlignment="Top" Width="493" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left"  Background="#00696b" Height="44" Margin="20,15,0,0" TextWrapping="Wrap" Text="UserName" VerticalAlignment="Top" Width="493" TextChanged="TextBox_TextChanged_1"/>
+
+        <TextBox HorizontalAlignment="Left"  Background="#00696b" Height="49" Margin="20,89,0,0" TextWrapping="Wrap" Text="Phone or Email" VerticalAlignment="Top" Width="493" TextChanged="TextBox_TextChanged_3" />
+        <Label Content="" x:Name="UserNameContoller" HorizontalAlignment="Left"  Background="#57cc99" Margin="20,64,0,0" VerticalAlignment="Top" Width="493"/>
+        <Label x:Name="PhoneOrEmailContoller" HorizontalAlignment="Left" Background="#57cc99" Height="20" Margin="20,143,0,0" VerticalAlignment="Top" Width="493"/>
+        <Label  x:Name="dateOfBirthadcontoroller" HorizontalAlignment="Left"  Height="20" Margin="20,236,0,-62" VerticalAlignment="Top" Width="493"/>
+        <Button Content="next"  Background="#00696b"  HorizontalAlignment="Left" Height="28" Margin="21,337,0,-76" VerticalAlignment="Top" Width="108" Click="Button_Click"/>
+        <Label x:Name="AllContller" HorizontalAlignment="Left"  Background="#57cc99" Height="20" Margin="178,340,0,-71" VerticalAlignment="Top" Width="327"/>
+        <TextBox HorizontalAlignment="Left"  Background="#00696b" Height="41" Margin="20,264,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="493" TextChanged="TextBox_TextChanged_2"/>
+        <Label x:Name="passwordcontoroller" HorizontalAlignment="Left"  Background="#57cc99" Height="20" Margin="20,303,0,-34" VerticalAlignment="Top" Width="327"/>
+
+    </Grid>
+</Window>

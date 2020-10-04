@@ -1,0 +1,22 @@
+﻿<Window x:Class="VstaabnerWpf.XmlFolder.ShelvesContoller"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VstaabnerWpf.XmlFolder"
+        mc:Ignorable="d"
+        Title="ShelvesContoller" Height="450" Width="800">
+    <Grid>
+        <Button Content="Add shelve" HorizontalAlignment="Left" Height="40" Margin="10,34,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click_1"/>
+        <Button Content="AddBook In shelve" HorizontalAlignment="Left" Height="40" Margin="10,74,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click_2"/>
+        <Button Content="Remove Book From shlve " HorizontalAlignment="Left" Height="40" Margin="10,114,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click_3"/>
+        <Button Content="remove shelve" HorizontalAlignment="Left" Height="40" Margin="10,159,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click_4"/>
+        <Button Content="Delete All shelve " HorizontalAlignment="Left" Height="40" Margin="10,204,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click_5"/>
+        <TextBox x:Name="Idtxt" Text="ID" TextWrapping="Wrap" Margin="295,36,280,370" TextChanged="Idtxt_TextChanged"/>
+        <TextBox  x:Name="Nametxt" Text="Name" TextWrapping="Wrap" Margin="295,66,280,340"/>
+        <TextBox  x:Name="Titletxt" Text="Title" TextWrapping="Wrap" Margin="295,94,280,312"/>
+        <DataGrid   x:Name="showEvery" HorizontalAlignment="Left" Height="173" Margin="255,189,0,0" VerticalAlignment="Top" Width="295" SelectionChanged="DataGrid_SelectionChanged"/>
+        <Label x:Name="labelshow" Content="" HorizontalAlignment="Left" Height="25" Margin="245,349,0,0" VerticalAlignment="Top" Width="185"/>
+        <TextBox  x:Name="Idbook" Text="Idbook" TextWrapping="Wrap" Margin="295,120,280,286" RenderTransformOrigin="0.533,2.141"/>
+    </Grid>
+</Window>

@@ -1,0 +1,18 @@
+﻿<Window x:Class="VstaabnerWpf.XmlFolder.UserProfile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VstaabnerWpf.XmlFolder"
+        mc:Ignorable="d"
+        Title="UserProfile" Height="450" Width="800">
+    <Grid>
+        <Button Background="Beige" Content="Update" HorizontalAlignment="Left" Height="70" Margin="30,44,0,0" VerticalAlignment="Top" Width="190" Click="Button_Click"/>
+        <Button Background="Beige" Content="Delete" HorizontalAlignment="Left" Height="70" Margin="30,119,0,0" VerticalAlignment="Top" Width="190" Click="Button_Click_1"/>
+        <TextBox x:Name="userametxt" Background="BlueViolet" HorizontalAlignment="Left" Height="25" Margin="285,49,0,0" Text="Username" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
+        <TextBox x:Name="emailtxt" Background="BlueViolet" HorizontalAlignment="Left" Height="25" Margin="285,79,0,0" Text="email" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
+        <TextBox x:Name="datetxt" Background="BlueViolet" HorizontalAlignment="Left" Height="25" Margin="285,119,0,0" Text="Date of Birthday" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
+        <TextBox x:Name="paswordtxt" Background="BlueViolet" HorizontalAlignment="Left" Height="25" Margin="285,154,0,0" Text="password" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
+
+    </Grid>
+</Window>
