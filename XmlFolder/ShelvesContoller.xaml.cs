@@ -24,6 +24,8 @@ namespace VstaabnerWpf.XmlFolder
         private readonly MyDbContext _myDb;
         protected string _username;
         protected TbUser user1;
+        protected TbShelve _shelve;
+
 
         public ShelvesContoller(string username)
         {
@@ -35,6 +37,7 @@ namespace VstaabnerWpf.XmlFolder
             var shelvs = _myDb.Shelves.Where(x => x.UserId == user.Id).ToList();
             /// var selectuser=shelvs.Where(x=>x.id == )
             showEvery.ItemsSource = shelvs;
+            
 
         }
 
@@ -51,7 +54,10 @@ namespace VstaabnerWpf.XmlFolder
         private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
-            var item = e.AddedItems[0] as TbShelve;
+            _shelve = e.AddedItems[0] as TbShelve;
+            Idtxt.Text =Convert.ToString(_shelve.id);
+            Nametxt.Text = _shelve.Name;
+            Titletxt.Text = _shelve.Name;
 
             /// Idtxt.Text= 
         }

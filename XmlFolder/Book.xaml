@@ -8,8 +8,8 @@
         Title="Book" Height="450" Width="800">
     <Grid>
         <Button Content="Add" HorizontalAlignment="Left" Height="35" Margin="35,29,0,0" VerticalAlignment="Top" Width="110" Click="Button_Click"/>
-        <Button Content="Delete" HorizontalAlignment="Left" Height="35" Margin="35,69,0,0" VerticalAlignment="Top" Width="110"/>
-        <Button Content="select" HorizontalAlignment="Left" Height="35" Margin="35,109,0,0" VerticalAlignment="Top" Width="110"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Height="35" Margin="35,69,0,0" VerticalAlignment="Top" Width="110" Click="Button_Click_2"/>
+        <Button Content="select" HorizontalAlignment="Left" Height="34" Margin="35,108,0,0" VerticalAlignment="Top" Width="110" Click="Button_Click_3"/>
         <Button Content="Update" HorizontalAlignment="Left" Height="35" Margin="35,149,0,0" VerticalAlignment="Top" Width="110" Click="Button_Click_1"/>
         <TextBox x:Name="txtid" HorizontalAlignment="Left" Height="35" Margin="470,29,0,0" Text="id" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
         <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="34" Margin="470,69,0,0" Text="Name" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" RenderTransformOrigin="0.52,-0.381">
@@ -53,6 +53,7 @@
             </TextBox.RenderTransform>
         </TextBox>
         <Label x:Name="MyLabel" Content="" HorizontalAlignment="Left" Height="80" Margin="205,86,0,0" VerticalAlignment="Top" Width="140"/>
+        <DataGrid x:Name="datagrid" HorizontalAlignment="Left" Height="130" Margin="145,244,0,0" VerticalAlignment="Top" Width="430" SelectionChanged="DataGrid_SelectionChanged"/>
 
     </Grid>
 </Window>
