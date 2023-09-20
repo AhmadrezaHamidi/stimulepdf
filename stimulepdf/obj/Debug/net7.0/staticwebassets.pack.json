@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\stimulepdf\\stimulepdf\\wwwroot\\Reports\\BillChakavak.mrt",
+      "PackagePath": "staticwebassets\\Reports\\BillChakavak.mrt"
+    },
+    {
+      "Id": "F:\\stimulepdf\\stimulepdf\\wwwroot\\Reports\\BillesGhoboz.mrt",
+      "PackagePath": "staticwebassets\\Reports\\BillesGhoboz.mrt"
+    },
+    {
+      "Id": "F:\\stimulepdf\\stimulepdf\\wwwroot\\Reports\\BillesInternet.mrt",
+      "PackagePath": "staticwebassets\\Reports\\BillesInternet.mrt"
+    },
+    {
+      "Id": "F:\\stimulepdf\\stimulepdf\\wwwroot\\Reports\\ConsolidatedInvoice.mrt",
+      "PackagePath": "staticwebassets\\Reports\\ConsolidatedInvoice.mrt"
+    },
+    {
+      "Id": "F:\\stimulepdf\\stimulepdf\\wwwroot\\Reports\\SearchingData.mrt",
+      "PackagePath": "staticwebassets\\Reports\\SearchingData.mrt"
+    },
+    {
+      "Id": "F:\\stimulepdf\\stimulepdf\\wwwroot\\Reports\\kholasehHesab.mrt",
+      "PackagePath": "staticwebassets\\Reports\\kholasehHesab.mrt"
+    },
+    {
+      "Id": "F:\\stimulepdf\\stimulepdf\\wwwroot\\fonts\\Kalameh\\KalamehFaNum.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Kalameh\\KalamehFaNum.ttf"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.stimulepdf.props",
+      "PackagePath": "build\\stimulepdf.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.stimulepdf.props",
+      "PackagePath": "buildMultiTargeting\\stimulepdf.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.stimulepdf.props",
+      "PackagePath": "buildTransitive\\stimulepdf.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.stimulepdf.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
